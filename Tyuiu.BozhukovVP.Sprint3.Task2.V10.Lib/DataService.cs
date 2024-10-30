@@ -6,11 +6,12 @@ namespace Tyuiu.BozhukovVP.Sprint3.Task2.V10.Lib
         public double GetMultiplySeries(int value, int startValue, int stopValue)
         {
             double MultiplySeries = 1;
+            double i = startValue;
             do
             {
-                MultiplySeries = MultiplySeries * (Math.Pow(value,startValue)+1/startValue+1);
-                startValue++;
-            } while (startValue <= stopValue);
+                MultiplySeries = MultiplySeries * (1+1/(i+1));
+                i++;
+            } while (i <= stopValue);
             return Math.Round(MultiplySeries, 3);
         }
     }
