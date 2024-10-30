@@ -5,15 +5,18 @@ namespace Tyuiu.BozhukovVP.Sprint3.Task4.V1.Lib
     {
         public double Calculate(int startValue, int stopValue)
         {
-            double res = 1;
-            for (int x = startValue; x <= stopValue; x++)
+            int i2 = stopValue;
+            double sum = 0;
+            for (int i = startValue; i < i2; i++)
             {
-                if (x == 0)
-                    continue;
-                else
-                    res = res + (Math.Sin(x)/x);
+                if (i == 0)
+                {
+                    break;
+                }
+                sum = sum + (Math.Sin(i) / i);
+
             }
-            return Math.Round(res, 3);
+            return Math.Round(sum, 3);
         }
     }
 }

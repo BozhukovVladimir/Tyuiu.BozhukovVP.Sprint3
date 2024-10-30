@@ -11,7 +11,7 @@ namespace Tyuiu.BozhukovVP.Sprint3.Task4.V1.Test
             int startValue = -5;
             int stopValue = 5;
             double res = ds.Calculate(startValue, stopValue);
-            double wait = 2.924;
+            double wait = 0.962;
             Assert.AreEqual(wait, res);
         }
     }
