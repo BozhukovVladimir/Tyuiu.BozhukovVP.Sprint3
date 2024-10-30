@@ -13,7 +13,7 @@ namespace Tyuiu.BozhukovVP.Sprint3.Task7.V2.Lib
             int count = 0;
             for (int x = startValue; x <= stopValue; x++)
             {
-                if (x == 1)
+                if (x == 0.7)
                 {
                     valueArray[count] = 0;
                     count++;
