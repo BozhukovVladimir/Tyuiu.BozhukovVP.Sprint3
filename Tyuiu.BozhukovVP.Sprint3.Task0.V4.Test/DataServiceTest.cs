@@ -1,5 +1,5 @@
-using Tyuiu.StoyakinNM.Sprint3.Task0.V4.Lib;
-namespace Tyuiu.StoyakinNM.Sprint3.Task0.V4.Test
+using Tyuiu.BozhukovVP.Sprint3.Task0.V4.Lib;
+namespace Tyuiu.BozhukovVP.Sprint3.Task0.V4.Test
 {
     [TestClass]
     public class DataServiceTest

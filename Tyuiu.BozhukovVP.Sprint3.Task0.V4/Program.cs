@@ -1,10 +1,39 @@
-﻿namespace Tyuiu.BozhukovVP.Sprint3.Task0.V4
+﻿using Tyuiu.BozhukovVP.Sprint3.Task0.V4.Lib;
+internal class Program
 {
-    internal class Program
+    private static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
+        DataService ds = new DataService();
+        Console.Title = "Спринт #3 | Выполнил: Божуков В.П. | ИБКСб-24-1";
+        Console.WriteLine("***************************************************************************");
+        Console.WriteLine("* Спринт #3                                                               *");
+        Console.WriteLine("* Тема: Оператор цикла for                                                *");
+        Console.WriteLine("* Задание #0                                                              *");
+        Console.WriteLine("* Вариант #4                                                              *");
+        Console.WriteLine("* Выполнил: Божуков Владимир Павлович | ИБКСб-24-1                        *");
+        Console.WriteLine("***************************************************************************");
+        Console.WriteLine("* УСЛОВИЕ:                                                                *");
+        Console.WriteLine("* Написать программу используя цикл for, которая вычисляет произведение   *");
+        Console.WriteLine("* ряда по формуле:                                                        *");
+        Console.WriteLine("*     7                                                                   *");
+        Console.WriteLine("* p = П Sin(0,1) + k                                                      *");
+        Console.WriteLine("*    k=1                                                                  *");
+        Console.WriteLine("***************************************************************************");
+        Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
+        Console.WriteLine("***************************************************************************");
+
+        int startValue = 1;
+        int stopValue = 7;
+
+        Console.WriteLine("Старт шага = " + startValue);
+        Console.WriteLine("Конец шага = " + stopValue);
+
+
+        Console.WriteLine("***************************************************************************");
+        Console.WriteLine("* РЕЗУЛЬТАТ;                                                              *");
+        Console.WriteLine("***************************************************************************");
+
+        Console.WriteLine("Сумма ряда = " + ds.GetMultiplySeries(startValue, stopValue));
+        Console.ReadKey();
     }
 }
