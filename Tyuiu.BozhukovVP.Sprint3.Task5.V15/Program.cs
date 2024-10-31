@@ -17,7 +17,7 @@ namespace Tyuiu.BozhukovVP.Sprint3.Task5.V15
             Console.WriteLine("* Тема: Вложенные циклы                                                   *");
             Console.WriteLine("* Задание #5                                                              *");
             Console.WriteLine("* Вариант #15                                                             *");
-            Console.WriteLine("* Выполнил: Божуков Владимир Павлович | ИБЕКСб-24-1                       *");
+            Console.WriteLine("* Выполнил: Божуков Владимир Павлович | ИБКСб-24-1                        *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("***************************************************************************");
